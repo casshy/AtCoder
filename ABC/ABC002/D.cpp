@@ -22,7 +22,7 @@ void get_input(){
   }
 }
 
-int comb[N_MAX], ans;
+int ans;
 vector<int> combi(0);
 void combination(int comb[], int i, int b){
   if(b)
